@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor-game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="igor-menu.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="menu" id="menu">
+        <div class="coluna">
+            <h1>🔥Igor's adventure🔥</h1>
+            <div class="btns">
+                <input type="button" value="começar" id="btnComeca">
+                <input type="button" value="sobre" id="btnSobre">
+                <input type="button" value="eu" id="btnSobreMim">
+            </div>
+            <div class="menu-sobre" id="sobre">
+                <h2>ESSA NÃO!</h2>
+                <h3>igor está em apuros, vá ajuda-lo</h3>
+                <p>ele foi sequestrado e colocado em seu maior pesadelo, uma sala sozinho com o br.</p>
+                <p>não desista, ainda temos uma chance, ajude ele a desviar do br ate o contador chegar a 100</p>
+                <h3>Boa sorte!</h3>
+                <h3>W,A,S,D</h3>
+            </div>
+            <div class="menu-sobremim" id="sobreMim">
+                <h2>jogo que fiz pro melhor careca ❤</h2>
+                <p>queria muito fazer um jogo em javascript, duvidaram de mim e vim provar que todas estavam errados
+                </p>
+                <h4>linda historia</h4>
+                <h3>feito pelo sopa</h3>
+            </div>
+            <marquee ><img src="igor-menu.jpg" alt=""></marquee>
+        </div>
+
+
+    </div>
+    <div id="gameContainer">
+        <div class="coluna">
+            <canvas id="gameBoard" width="1000" height="600"></canvas>
+            <h1>Score:<span id="score"></span></h1>
+        </div>
+    </div>
+    <script src="index.js"></script><br>
+</body>
+
+</html>
